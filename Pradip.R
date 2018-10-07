@@ -34,3 +34,11 @@ sal.freq=table(sal.cut)
 #salary frequency distribution
 sal.freq
 
+
+#Satisfied Students
+hist(dataFile$satis)
+hist(dataFile$salary)
+summary(dataFile$salary)
+summary(dataFile$satis)
+
+#we can no figure out that highest salary is drawn bu highest satis students
